@@ -89,7 +89,7 @@
 
         //typed js
         $(".typed").typed({
-            strings: ["我是高宗郁", "一名網頁設計師", "人生。音樂。棒球"],
+            strings: ["My Name is Tsung-Yu,Kao", "I'm a Web Designer", "Life. Music."],
             typeSpeed: 100,
             backDelay: 900,
             // loop
