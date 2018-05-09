@@ -8,17 +8,7 @@ TABLE OF CONTENTS:
 5) Typography
 6) Hero
 7) Sections
- 7.a) portfolio
- 7.b) service
- 7.c) experience
- 7.d) testimonial
- 7.e) blog
- 7.f) about
- 7.g) contact
- 7.h) footer
 8) Components
- 8.a) skills
-
 
 -------------------------------------------------------------
 
@@ -1135,9 +1125,13 @@ ul.portfolio-image li .desc {
     min-height: 480px;
 }
 
+.w-content {
+    width: 400px;
+}
+
 .wrap-about .w-content {
     position: absolute;
-    left: 45%;
+    left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -1423,11 +1417,11 @@ ul.portfolio-image li .desc {
     background-color: #527bbb;
 }
 
-.twitter {
+.linkedin {
     background: #ABABAB;
 }
 
-.twitter a:after {
+.linkedin a:after {
     background-color: #77ccf1;
 }
 

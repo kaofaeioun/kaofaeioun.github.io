@@ -91,7 +91,7 @@
         $(".typed").typed({
             strings: ["我是高宗郁", "一名網頁設計師", "人生。音樂。棒球"],
             typeSpeed: 100,
-            backDelay: 900,
+            backDelay: 850,
             // loop
             loop: true
         });
