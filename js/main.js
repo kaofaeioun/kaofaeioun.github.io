@@ -89,7 +89,7 @@
 
         //typed js
         $(".typed").typed({
-            strings: ["我是高宗郁", "一名網頁設計師", "人生。音樂。棒球"],
+            strings: ["我是高宗郁，可以叫我小羅", "一名網頁設計師", "人生。音樂。棒球"],
             typeSpeed: 100,
             backDelay: 850,
             // loop
@@ -147,11 +147,22 @@
         //Skill
         jQuery('.skillbar').each(function() {
             jQuery(this).appear(function() {
+                var datapercent = jQuery(this).attr('data-percent') + '%';
                 jQuery(this).find('.count-bar').animate({
-                    width: jQuery(this).attr('data-percent')
+                    width: datapercent
                 }, 3000);
                 var percent = jQuery(this).attr('data-percent');
-                jQuery(this).find('.count').html('<span>' + percent + '</span>');
+
+                if (percent <= 75) {
+                    jQuery(this).find('.count-bar').css('background-color', '#E26A69');
+                } else if (percent < 85) {
+                    jQuery(this).find('.count-bar').css('background-color', '#F6BA12');
+                } else if (percent < 90) {
+                    jQuery(this).find('.count-bar').css('background-color', '#A7D12F');
+                } else {
+                    jQuery(this).find('.count-bar').css('background-color', '#5EBFDF');
+                }
+                jQuery(this).find('.count').html('<span>' + percent + '%</span>');
             });
         });
 

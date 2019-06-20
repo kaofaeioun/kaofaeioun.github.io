@@ -575,27 +575,27 @@ p {
     opacity: 0.6;
 }
 
-.year {
+.job {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
-.job {
+.year {
     font-size: 14px;
     font-weight: 500;
     line-height: 14px;
     letter-spacing: 0.4px;
     text-transform: uppercase;
-    color: #cccccc;
+    color: #615e5ee8;
 }
 
 .company {
     font-size: 12px;
     line-height: 14px;
     border: 1px solid #ececec;
-    color: #cccccc;
+    color: #424242;
     padding: 8px 10px;
     border-radius: 6px;
     display: inline-block;
@@ -856,7 +856,7 @@ ul.portfolio-image li .desc {
 
 .wrap-card {
     position: relative;
-    box-shadow: 0px 0px 0px #818181;
+    box-shadow: 0px 0px 0px #1F497D;
     transition: all 0.2s ease 0s;
     -webkit-transform: translateY(0px) translateX(0px);
 }
@@ -868,7 +868,7 @@ ul.portfolio-image li .desc {
     content: " ";
     width: 100%;
     height: 3px;
-    background: #818181;
+    background: #1F497D;
     -webkit-transform: scaleX(0);
     transition: all 0.2s ease;
 }
@@ -886,7 +886,7 @@ ul.portfolio-image li .desc {
 }
 
 .wrap-card:hover {
-    box-shadow: 20px 20px 0px #818181;
+    box-shadow: 20px 20px 0px #1F497D;
     -webkit-transform: translateY(-10px) translateX(-10px);
     transition: all 0.2s ease 0.4s;
 }
@@ -910,7 +910,7 @@ ul.portfolio-image li .desc {
     content: " ";
     width: 3px;
     height: 100%;
-    background: #818181;
+    background: #1F497D;
     -webkit-transform: scaleY(0);
     transition: all 0.2s ease 0.2s;
 }
@@ -933,9 +933,9 @@ ul.portfolio-image li .desc {
 }
 
 
-/*---------- d. testimonial -----------*/
+/*---------- d. motto -----------*/
 
-#testimonial {
+#motto {
     background-image: url(../images/testimonial-bg.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -949,23 +949,23 @@ ul.portfolio-image li .desc {
     height: 550px;
 }
 
-.list-testimonial {
+.list-motto {
     display: block;
     width: 100%;
 }
 
-.list-testimonial .content-testimonial {
+.list-motto .content-motto {
     text-align: center;
     color: #ffffff;
 }
 
-.list-testimonial .content-testimonial .testi {
+.list-motto .content-motto .testi {
     font-size: 16px;
     line-height: 46px;
     letter-spacing: 2px;
 }
 
-.list-testimonial .content-testimonial .people {
+.list-motto .content-motto .people {
     font-size: 14px;
     margin-top: 30px;
     letter-spacing: 2px;
@@ -973,7 +973,7 @@ ul.portfolio-image li .desc {
     font-weight: 700;
 }
 
-.mask-testimonial {
+.mask-motto {
     background-color: rgba(47, 47, 47, 0.7);
     height: 100%;
     left: 0;
@@ -982,7 +982,7 @@ ul.portfolio-image li .desc {
     width: 100%;
 }
 
-.wrap-testimonial {
+.wrap-motto {
     z-index: 1;
     position: relative;
 }
@@ -1102,7 +1102,7 @@ ul.portfolio-image li .desc {
 }
 
 .bg-about {
-    background: url('../images/ivan.jpg');
+    background: url("../images/profile.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1360,7 +1360,7 @@ ul.portfolio-image li .desc {
     list-style: outside none none;
     float: left;
     overflow: hidden;
-    width: 50%;
+    width: 25%;
     font-size: 13px;
 }
 
@@ -1409,12 +1409,12 @@ ul.portfolio-image li .desc {
 }
 
 .facebook {
-    background: #969696;
+    background: #ABABAB;
     /*padding: 20px 0;*/
 }
 
 .facebook a:after {
-    background-color: #527bbb;
+    background-color: #3b5998;
 }
 
 .linkedin {
@@ -1422,21 +1422,29 @@ ul.portfolio-image li .desc {
 }
 
 .linkedin a:after {
-    background-color: #0B5894;
+    background-color: #0077b5;
 }
 
-.gplus {
-    background: #d8d8d8;
+.youtube {
+    background: #ABABAB;
 }
 
-.gplus a:after {
-    background: #dd4b39;
+.youtube a:after {
+    background-color: #ff0000;
+}
+
+.github {
+    background: #ABABAB;
+}
+
+.github a:after {
+    background-color: #6e5494;
 }
 
 .footer-bottom {
     width: 100%;
     background: #2f2f2f;
-    padding: 80px 0;
+    padding: 20px 0;
     color: #636363;
 }
 
